@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Placeholder adaptive icon layer — replace with your own PNG -->
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@color/bg_card" />
+    <foreground android:drawable="@drawable/ic_shield" />
+</adaptive-icon>

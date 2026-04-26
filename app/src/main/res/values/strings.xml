@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AdBlocker</string>
+    <string name="start_protection">Start Protection</string>
+    <string name="stop_protection">Stop Protection</string>
+    <string name="vpn_notification_title">AdBlocker Active</string>
+    <string name="vpn_notification_text">All traffic is being filtered on-device</string>
+    <string name="action_export_ca">Export CA Certificate</string>
+    <string name="action_clear_log">Clear Log</string>
+    <string name="action_about">About</string>
+</resources>

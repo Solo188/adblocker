@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingHorizontal="8dp"
+    android:paddingVertical="6dp"
+    android:gravity="center_vertical">
+
+    <!-- Timestamp -->
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:textColor="@color/text_secondary"
+        android:fontFamily="monospace"
+        android:text="00:00:00" />
+
+    <!-- Method badge -->
+    <TextView
+        android:id="@+id/tvMethod"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:textSize="9sp"
+        android:textColor="@color/text_secondary"
+        android:text="GET" />
+
+    <!-- Host + path -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="4dp">
+
+        <TextView
+            android:id="@+id/tvHost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="@color/text_primary"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:text="example.com" />
+
+        <TextView
+            android:id="@+id/tvPath"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:textColor="@color/text_secondary"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:text="/path/to/resource" />
+
+    </LinearLayout>
+
+    <!-- Status (BLOCKED / 200 / etc) -->
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="11sp"
+        android:fontFamily="sans-serif-medium"
+        android:text="PASS" />
+
+</LinearLayout>

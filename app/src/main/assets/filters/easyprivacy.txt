@@ -1,0 +1,20 @@
+[Adblock Plus 2.0]
+! Title: EasyPrivacy — Placeholder
+! Description: Replace with real EasyPrivacy from https://easylist.to/easylist/easyprivacy.txt
+
+||analytics.google.com^
+||google-analytics.com^
+||ssl.google-analytics.com^
+||googletagmanager.com^
+||segment.com^
+||segment.io^
+||mixpanel.com^
+||amplitude.com^
+||heap.io^
+||fullstory.com^
+||logrocket.com^
+||sentry.io^$third-party
+||datadog-browser-agent.com^
+||newrelic.com^$third-party
+||pingdom.net^
+||statcounter.com^
